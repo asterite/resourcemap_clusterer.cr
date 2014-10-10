@@ -1,0 +1,115 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "failed": 0
+  },
+  "hits": {
+    "total": 4,
+    "max_score": 1.0,
+    "hits": [
+      {
+        "_index": "collection_1",
+        "_type": "site",
+        "_id": "1",
+        "_score": 1.0,
+        "_source": {
+          "id": 1,
+          "name": "Site 1",
+          "id_with_prefix": "AA1",
+          "uuid": "26ec248c-72c3-48f0-8d12-8a5f1564aa89",
+          "type": "site",
+          "properties": {},
+          "created_at": "20141010T141151.042+0000",
+          "updated_at": "20141010T141151.042+0000",
+          "icon": "default",
+          "version": 1,
+          "location": {
+            "lat": 10.0,
+            "lon": 90.0
+          },
+          "lat_analyzed": "10.0",
+          "lng_analyzed": "90.0",
+          "alert": false
+        }
+      },
+      {
+        "_index": "collection_1",
+        "_type": "site",
+        "_id": "2",
+        "_score": 1.0,
+        "_source": {
+          "id": 2,
+          "name": "Site2 ",
+          "id_with_prefix": "AA2",
+          "uuid": "19c10815-25ca-412c-b3af-419327327921",
+          "type": "site",
+          "properties": {},
+          "created_at": "20141010T141158.903+0000",
+          "updated_at": "20141010T141158.903+0000",
+          "icon": "default",
+          "version": 1,
+          "location": {
+            "lat": 9.91343313498688,
+            "lon": 90.263671875
+          },
+          "lat_analyzed": "9.913433134986882",
+          "lng_analyzed": "90.263671875",
+          "alert": false
+        }
+      },
+      {
+        "_index": "collection_1",
+        "_type": "site",
+        "_id": "4",
+        "_score": 1.0,
+        "_source": {
+          "id": 4,
+          "name": "Site 4",
+          "id_with_prefix": "AA4",
+          "uuid": "f02f321f-9de2-47d5-8e55-61cbb8aeef69",
+          "type": "site",
+          "properties": {},
+          "created_at": "20141010T141227.192+0000",
+          "updated_at": "20141010T141227.192+0000",
+          "icon": "default",
+          "version": 1,
+          "location": {
+            "lat": 11.2956296396398,
+            "lon": 95.537109375
+          },
+          "lat_analyzed": "11.29562963963979",
+          "lng_analyzed": "95.537109375",
+          "alert": false
+        }
+      },
+      {
+        "_index": "collection_1",
+        "_type": "site",
+        "_id": "3",
+        "_score": 1.0,
+        "_source": {
+          "id": 3,
+          "name": "Site 3",
+          "id_with_prefix": "AA3",
+          "uuid": "77b6ffdd-9ef6-49c2-a23e-008498cc7f38",
+          "type": "site",
+          "properties": {},
+          "created_at": "20141010T141207.000+0000",
+          "updated_at": "20141010T141216.821+0000",
+          "icon": "default",
+          "version": 2,
+          "location": {
+            "lat": 10.0865438090244,
+            "lon": 89.384765625
+          },
+          "lat_analyzed": "10.0865438090244",
+          "lng_analyzed": "89.384765625",
+          "alert": false
+        }
+      }
+    ]
+  }
+}
